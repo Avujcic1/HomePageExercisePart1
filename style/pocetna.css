@@ -1,0 +1,107 @@
+body {
+	background-image: url("../photos/pozadina.jpg");
+	width: 99.5%;
+	height: auto;
+}	
+
+.centar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7%;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	color: red;
+	margin: 0 auto;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+	alignment: center;
+}
+
+ul#meni {
+  list-style: none;
+  font-size: 35px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+ul#meni li{
+  display: inline;
+  padding-right: 20px;
+}
+
+ul#prva, ul#druga {
+	list-style: none;
+	font-size: 20px;
+}
+
+#LijevaLista {
+ 	text-align: left;
+ 	outline: 15px solid rgba(0, 0, 0, 0.6);
+ 	outline-offset: -5px;
+ 	width: 28%;
+ 	border: 1px solid black;
+}
+
+#DesnaLista {
+ 	text-align: left;
+ 	outline: 15px solid rgba(0, 0, 0, 0.6);
+ 	outline-offset: -5px;
+ 	width: 28%;
+ 	border: 1px solid black;
+}
+
+#SrednjaLista {
+	text-align: left;
+	margin-right: auto;
+  	margin-left: auto;
+  	width: 29%;
+  	border: 1px solid black;
+}
+
+.prazno {
+	width: 8%;
+}
+
+h2, h3 {
+	font-size: 30px;
+	color: red;
+	text-align: center;
+}
+
+ul#DonjaLista {
+	width: 100%;
+	font-size: 35px;
+	font-style: italic;
+	list-style: none;
+	text-align: center;
+}
+
+ul#DonjaLista li {
+	display: inline;
+	padding: 20px;
+}
+
+.prva li{
+	padding-left: 50px;
+ 	text-align: left;
+	background-image: url(../photos/book.png);
+	background-repeat: no-repeat;
+	background-position: top 6px left 6px;
+}
+
+.druga li{
+	padding-left: 50px;
+ 	text-align: left;
+	background-image: url(../photos/PC.png);
+	background-repeat: no-repeat;
+	background-size: 13px 13px;
+	background-position: top 6px left 6px;
+}
