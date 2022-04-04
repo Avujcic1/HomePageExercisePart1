@@ -1,0 +1,117 @@
+body {
+	background-image: url("../photos/pozadina.jpg");
+	width: 99.5%;
+	height: auto;
+}	
+
+.centar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7%;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	color: red;
+	margin: 0 auto;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+	alignment: center;
+}
+
+ul#meni {
+  list-style: none;
+  font-size: 35px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+ul#meni li{
+  display: inline;
+  padding-right: 20px;
+}
+
+ul#DonjaLista {
+	width: 100%;
+	font-size: 35px;
+	font-style: italic;
+	list-style: none;
+	text-align: center;
+}
+
+ul#DonjaLista li {
+	display: inline;
+	padding: 20px;
+}
+
+.boja, .boja0, .boja1, .boja00 {
+	background-color: gray;
+}
+
+.boja00 {
+	font-size: 35px;
+}
+
+table.prva {
+  float: left;
+  width: 49.5%;
+  text-align: center;
+  font-size: 26px;
+}
+
+table.druga {
+  float: right;
+  width: 49.5%;
+  text-align: center;
+}
+
+table, td, tr, th{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.red {
+	border: dashed 2px;
+	text-align: left;
+}
+
+.prvired {
+	border-left: dashed 2px;
+	border-bottom: dashed 2px;
+	border-right: dashed 2px;
+	text-align: left;
+}
+
+.boja {
+	text-align: left;
+}
+
+.boja1 {
+	border-top: dashed 2px black;
+}
+
+.predavanje {
+	color: orangered ;
+	background-color: lightsalmon;
+}
+
+.vježba {
+	color: green;
+	background-color: lightgreen;
+}
+
+.kombinacija {
+	background-color: lightgray;
+}
+
+footer {
+	width: 100%;
+	display: flex;
+	
+}
