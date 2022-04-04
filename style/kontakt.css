@@ -1,0 +1,86 @@
+body {
+	background-image: url("../photos/pozadina.jpg");
+	width: 99.5%;
+	height: auto;
+}	
+
+.centar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7%;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	color: red;
+	margin: 0 auto;
+}
+
+.table, .table1 {
+	display: table;
+	margin: 0 auto;
+	alignment: center;
+}
+
+ul#meni {
+  list-style: none;
+  font-size: 35px;
+  margin-top: 0;
+  padding-bottom: 5px;
+}
+
+ul#meni li{
+  display: inline;
+  padding-right: 20px;
+}
+
+div.table1 {
+ 	outline: 15px solid rgba(0, 0, 0, 0.6);
+ 	outline-offset: -10px;
+ 	width: 25%;
+ 	border: 1px solid black;
+ 	padding: 40px;
+
+}
+
+label {
+	display: inline-block;
+	text-align: left;
+	width: 170px;
+}
+
+#ime, #mail, #predmet, #polaznik, #tekst, #dodatak {
+	padding-top: 30px;
+	text-align: left;
+	font-size: 25px;
+	padding-left: 30px;
+	font-style: italic;
+}
+
+#posalji {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#ime:active, #mail:active, #tekst:active {
+	text-decoration: none;
+	text-shadow: transparent;
+	outline: none;
+}
+
+ul#DonjaLista {
+	width: 100%;
+	font-size: 35px;
+	font-style: italic;
+	list-style: none;
+	text-align: center;
+}
+
+ul#DonjaLista li {
+	display: inline;
+	padding: 20px;
+}
