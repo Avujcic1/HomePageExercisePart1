@@ -157,7 +157,7 @@ ul#DonjaLista li {
 	border: 1px solid black;
 }
 
-.predmeti {
+.predmet {
 	grid-column: 1;
 	grid-row: 1;
 	border: 1px solid black;
